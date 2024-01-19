@@ -1,0 +1,12 @@
+- name: create jenkins jobs
+  hosts: localhost
+  roles:
+    - jenkins
+
+  vars:
+    mjobs:
+      - {job_name: "learn-terraform", repo_name: "https://github.com/shyam424/learn-terraform" }
+
+  vars:
+    sjobs:
+      - {job_name: "roboshop-terraform", repo_name: "https://github.com/shyam424/roboshop-terraform" }
