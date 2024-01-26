@@ -1,13 +1,13 @@
 <?xml version='1.1' encoding='UTF-8'?>
-<org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject plugin="workflow-multibranch@756.v891d88f2cd46">
+<org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject plugin="workflow-multibranch@773.vc4fe1378f1d5">
     <actions/>
     <description></description>
     <properties/>
-    <folderViews class="jenkins.branch.MultiBranchProjectViewHolder" plugin="branch-api@2.1135.v8de8e7899051">
+    <folderViews class="jenkins.branch.MultiBranchProjectViewHolder" plugin="branch-api@2.1144.v1425d1c3d5a_7">
         <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
     </folderViews>
     <healthMetrics/>
-    <icon class="jenkins.branch.MetadataActionFolderIcon" plugin="branch-api@2.1135.v8de8e7899051">
+    <icon class="jenkins.branch.MetadataActionFolderIcon" plugin="branch-api@2.1144.v1425d1c3d5a_7">
         <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
     </icon>
     <orphanedItemStrategy class="com.cloudbees.hudson.plugins.folder.computed.DefaultOrphanedItemStrategy" plugin="cloudbees-folder@6.858.v898218f3609d">
@@ -18,11 +18,11 @@
     </orphanedItemStrategy>
     <triggers/>
     <disabled>false</disabled>
-    <sources class="jenkins.branch.MultiBranchProject$BranchSourceList" plugin="branch-api@2.1135.v8de8e7899051">
+    <sources class="jenkins.branch.MultiBranchProject$BranchSourceList" plugin="branch-api@2.1144.v1425d1c3d5a_7">
         <data>
             <jenkins.branch.BranchSource>
                 <source class="jenkins.plugins.git.GitSCMSource" plugin="git@5.2.1">
-                    <id>0311efd9-d5a8-4618-968f-e50f52bda709</id>
+                    <id>0d434411-14f3-418f-b403-2c11f6eeaccd</id>
                     <remote>{{ item.repo_name }}</remote>
                     <credentialsId></credentialsId>
                     <traits>
