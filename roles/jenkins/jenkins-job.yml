@@ -5,7 +5,7 @@
 
   vars:
     mjobs:
-      - {job_name: "learn-terraform", repo_name: "https://github.com/shyam424/learn-terraform" }
+      - {job_name: "learn-cart", repo_name: "https://github.com/shyam424/cart" }
 
   vars:
     sjobs:
