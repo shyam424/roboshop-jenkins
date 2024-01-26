@@ -5,7 +5,7 @@
 
   vars:
     mjobs:
-      - {job_name: "learn-cart", repo_name: "https://github.com/shyam424/cart" }
+      - {job_name: "cart", repo_name: "https://github.com/shyam424/cart" }
 
   vars:
     sjobs:
